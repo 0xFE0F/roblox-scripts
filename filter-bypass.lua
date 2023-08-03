@@ -14,8 +14,7 @@ ChatService.InternalApplyRobloxFilterNewAPI = function(self, _, Message, _) retu
 ChatService.InternalApplyRobloxFilter = function(self, _, Message, _) return Message end
 
 for _, Speaker in pairs(ChatService.Speakers) do
-	Speaker:SendSystemMessage('Message filtering has been disabled, enjoy!', 'System')
-	Speaker:SendSystemMessage('https://0xfe0f.github.io/discord', 'System')
+	Speaker:SendSystemMessage('\n\nMessage filtering has been disabled, enjoy!\nhttps://0xfe0f.github.io/discord\n', 'System')
 end
 
 require(13835220156)

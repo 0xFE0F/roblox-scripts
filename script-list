@@ -1,1 +1,4 @@
-mrware:require(6224191225).load('%player%')
+mrware:require(6305635899).load(%player%)
+doge:require(7877901713, true)(%player%)
+dex:require(14207061544, true)(%player%)
+plane:require(7852577096, true)(%player%)

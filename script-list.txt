@@ -1,1 +1,1 @@
-mrware:require(6224191225).load(%player%)
+mrware:require(6224191225).load('%player%')
